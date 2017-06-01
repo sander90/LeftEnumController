@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C54479DA1EDE542E00E7263E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C54479D91EDE542E00E7263E /* main.m */; };
+		C54479DD1EDE542E00E7263E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C54479DC1EDE542E00E7263E /* AppDelegate.m */; };
+		C54479E01EDE542E00E7263E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54479DF1EDE542E00E7263E /* ViewController.m */; };
+		C54479E31EDE542E00E7263E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54479E11EDE542E00E7263E /* Main.storyboard */; };
+		C54479E51EDE542E00E7263E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54479E41EDE542E00E7263E /* Assets.xcassets */; };
+		C54479E81EDE542E00E7263E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54479E61EDE542E00E7263E /* LaunchScreen.storyboard */; };
+		C54479F31EDE542F00E7263E /* LeftEnumControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C54479F21EDE542F00E7263E /* LeftEnumControllerUITests.m */; };
+		C5447A001EDE54D000E7263E /* SDBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54479FF1EDE54D000E7263E /* SDBaseNavigationViewController.m */; };
+		C5447A031EDE54E800E7263E /* SDBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5447A021EDE54E800E7263E /* SDBaseTabBarViewController.m */; };
+		C5447A061EDE551500E7263E /* SDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5447A051EDE551500E7263E /* SDTabBar.m */; };
+		C5447A091EDE56A500E7263E /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5447A081EDE56A500E7263E /* SSViewController.m */; };
+		C5447A251EDEB1EC00E7263E /* SDPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5447A221EDEB1EC00E7263E /* SDPopTransition.m */; };
+		C5447A261EDEB1EC00E7263E /* SDPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5447A241EDEB1EC00E7263E /* SDPushTransition.m */; };
+		C5447A2C1EDF095F00E7263E /* SDLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5447A2B1EDF095F00E7263E /* SDLeftViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C54479EF1EDE542F00E7263E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54479CD1EDE542E00E7263E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54479D41EDE542E00E7263E;
+			remoteInfo = LeftEnumController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C54479D51EDE542E00E7263E /* LeftEnumController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftEnumController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54479D91EDE542E00E7263E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C54479DB1EDE542E00E7263E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C54479DC1EDE542E00E7263E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C54479DE1EDE542E00E7263E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C54479DF1EDE542E00E7263E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C54479E21EDE542E00E7263E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C54479E41EDE542E00E7263E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C54479E71EDE542E00E7263E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C54479E91EDE542E00E7263E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54479EE1EDE542F00E7263E /* LeftEnumControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftEnumControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54479F21EDE542F00E7263E /* LeftEnumControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftEnumControllerUITests.m; sourceTree = "<group>"; };
+		C54479F41EDE542F00E7263E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54479FE1EDE54D000E7263E /* SDBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseNavigationViewController.h; sourceTree = "<group>"; };
+		C54479FF1EDE54D000E7263E /* SDBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseNavigationViewController.m; sourceTree = "<group>"; };
+		C5447A011EDE54E800E7263E /* SDBaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseTabBarViewController.h; sourceTree = "<group>"; };
+		C5447A021EDE54E800E7263E /* SDBaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseTabBarViewController.m; sourceTree = "<group>"; };
+		C5447A041EDE551500E7263E /* SDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTabBar.h; sourceTree = "<group>"; };
+		C5447A051EDE551500E7263E /* SDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTabBar.m; sourceTree = "<group>"; };
+		C5447A071EDE56A500E7263E /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		C5447A081EDE56A500E7263E /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		C5447A211EDEB1EC00E7263E /* SDPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPopTransition.h; sourceTree = "<group>"; };
+		C5447A221EDEB1EC00E7263E /* SDPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPopTransition.m; sourceTree = "<group>"; };
+		C5447A231EDEB1EC00E7263E /* SDPushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPushTransition.h; sourceTree = "<group>"; };
+		C5447A241EDEB1EC00E7263E /* SDPushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPushTransition.m; sourceTree = "<group>"; };
+		C5447A2A1EDF095F00E7263E /* SDLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLeftViewController.h; sourceTree = "<group>"; };
+		C5447A2B1EDF095F00E7263E /* SDLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLeftViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C54479D21EDE542E00E7263E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54479EB1EDE542F00E7263E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C54479CC1EDE542E00E7263E = {
+			isa = PBXGroup;
+			children = (
+				C54479D71EDE542E00E7263E /* LeftEnumController */,
+				C54479F11EDE542F00E7263E /* LeftEnumControllerUITests */,
+				C54479D61EDE542E00E7263E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C54479D61EDE542E00E7263E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54479D51EDE542E00E7263E /* LeftEnumController.app */,
+				C54479EE1EDE542F00E7263E /* LeftEnumControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54479D71EDE542E00E7263E /* LeftEnumController */ = {
+			isa = PBXGroup;
+			children = (
+				C54479FD1EDE54AA00E7263E /* main */,
+				C54479DB1EDE542E00E7263E /* AppDelegate.h */,
+				C54479DC1EDE542E00E7263E /* AppDelegate.m */,
+				C54479DE1EDE542E00E7263E /* ViewController.h */,
+				C54479DF1EDE542E00E7263E /* ViewController.m */,
+				C5447A071EDE56A500E7263E /* SSViewController.h */,
+				C5447A081EDE56A500E7263E /* SSViewController.m */,
+				C54479E11EDE542E00E7263E /* Main.storyboard */,
+				C54479E41EDE542E00E7263E /* Assets.xcassets */,
+				C54479E61EDE542E00E7263E /* LaunchScreen.storyboard */,
+				C54479E91EDE542E00E7263E /* Info.plist */,
+				C54479D81EDE542E00E7263E /* Supporting Files */,
+				C5447A2A1EDF095F00E7263E /* SDLeftViewController.h */,
+				C5447A2B1EDF095F00E7263E /* SDLeftViewController.m */,
+			);
+			path = LeftEnumController;
+			sourceTree = "<group>";
+		};
+		C54479D81EDE542E00E7263E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C54479D91EDE542E00E7263E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C54479F11EDE542F00E7263E /* LeftEnumControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C54479F21EDE542F00E7263E /* LeftEnumControllerUITests.m */,
+				C54479F41EDE542F00E7263E /* Info.plist */,
+			);
+			path = LeftEnumControllerUITests;
+			sourceTree = "<group>";
+		};
+		C54479FD1EDE54AA00E7263E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				C5447A211EDEB1EC00E7263E /* SDPopTransition.h */,
+				C5447A221EDEB1EC00E7263E /* SDPopTransition.m */,
+				C5447A231EDEB1EC00E7263E /* SDPushTransition.h */,
+				C5447A241EDEB1EC00E7263E /* SDPushTransition.m */,
+				C54479FE1EDE54D000E7263E /* SDBaseNavigationViewController.h */,
+				C54479FF1EDE54D000E7263E /* SDBaseNavigationViewController.m */,
+				C5447A011EDE54E800E7263E /* SDBaseTabBarViewController.h */,
+				C5447A021EDE54E800E7263E /* SDBaseTabBarViewController.m */,
+				C5447A041EDE551500E7263E /* SDTabBar.h */,
+				C5447A051EDE551500E7263E /* SDTabBar.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C54479D41EDE542E00E7263E /* LeftEnumController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54479F71EDE542F00E7263E /* Build configuration list for PBXNativeTarget "LeftEnumController" */;
+			buildPhases = (
+				C54479D11EDE542E00E7263E /* Sources */,
+				C54479D21EDE542E00E7263E /* Frameworks */,
+				C54479D31EDE542E00E7263E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeftEnumController;
+			productName = LeftEnumController;
+			productReference = C54479D51EDE542E00E7263E /* LeftEnumController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C54479ED1EDE542F00E7263E /* LeftEnumControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54479FA1EDE542F00E7263E /* Build configuration list for PBXNativeTarget "LeftEnumControllerUITests" */;
+			buildPhases = (
+				C54479EA1EDE542F00E7263E /* Sources */,
+				C54479EB1EDE542F00E7263E /* Frameworks */,
+				C54479EC1EDE542F00E7263E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C54479F01EDE542F00E7263E /* PBXTargetDependency */,
+			);
+			name = LeftEnumControllerUITests;
+			productName = LeftEnumControllerUITests;
+			productReference = C54479EE1EDE542F00E7263E /* LeftEnumControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54479CD1EDE542E00E7263E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shansander;
+				TargetAttributes = {
+					C54479D41EDE542E00E7263E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 778546W9LD;
+						ProvisioningStyle = Automatic;
+					};
+					C54479ED1EDE542F00E7263E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 778546W9LD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C54479D41EDE542E00E7263E;
+					};
+				};
+			};
+			buildConfigurationList = C54479D01EDE542E00E7263E /* Build configuration list for PBXProject "LeftEnumController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54479CC1EDE542E00E7263E;
+			productRefGroup = C54479D61EDE542E00E7263E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54479D41EDE542E00E7263E /* LeftEnumController */,
+				C54479ED1EDE542F00E7263E /* LeftEnumControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C54479D31EDE542E00E7263E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54479E81EDE542E00E7263E /* LaunchScreen.storyboard in Resources */,
+				C54479E51EDE542E00E7263E /* Assets.xcassets in Resources */,
+				C54479E31EDE542E00E7263E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54479EC1EDE542F00E7263E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C54479D11EDE542E00E7263E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5447A061EDE551500E7263E /* SDTabBar.m in Sources */,
+				C5447A001EDE54D000E7263E /* SDBaseNavigationViewController.m in Sources */,
+				C54479E01EDE542E00E7263E /* ViewController.m in Sources */,
+				C5447A091EDE56A500E7263E /* SSViewController.m in Sources */,
+				C54479DD1EDE542E00E7263E /* AppDelegate.m in Sources */,
+				C5447A251EDEB1EC00E7263E /* SDPopTransition.m in Sources */,
+				C5447A2C1EDF095F00E7263E /* SDLeftViewController.m in Sources */,
+				C5447A261EDEB1EC00E7263E /* SDPushTransition.m in Sources */,
+				C5447A031EDE54E800E7263E /* SDBaseTabBarViewController.m in Sources */,
+				C54479DA1EDE542E00E7263E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54479EA1EDE542F00E7263E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54479F31EDE542F00E7263E /* LeftEnumControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C54479F01EDE542F00E7263E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C54479D41EDE542E00E7263E /* LeftEnumController */;
+			targetProxy = C54479EF1EDE542F00E7263E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C54479E11EDE542E00E7263E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54479E21EDE542E00E7263E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54479E61EDE542E00E7263E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54479E71EDE542E00E7263E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C54479F51EDE542F00E7263E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C54479F61EDE542F00E7263E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54479F81EDE542F00E7263E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 778546W9LD;
+				INFOPLIST_FILE = LeftEnumController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aico.-.LeftEnumController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C54479F91EDE542F00E7263E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 778546W9LD;
+				INFOPLIST_FILE = LeftEnumController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aico.-.LeftEnumController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C54479FB1EDE542F00E7263E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 778546W9LD;
+				INFOPLIST_FILE = LeftEnumControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aico.-.LeftEnumControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeftEnumController;
+			};
+			name = Debug;
+		};
+		C54479FC1EDE542F00E7263E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 778546W9LD;
+				INFOPLIST_FILE = LeftEnumControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aico.-.LeftEnumControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeftEnumController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C54479D01EDE542E00E7263E /* Build configuration list for PBXProject "LeftEnumController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54479F51EDE542F00E7263E /* Debug */,
+				C54479F61EDE542F00E7263E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54479F71EDE542F00E7263E /* Build configuration list for PBXNativeTarget "LeftEnumController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54479F81EDE542F00E7263E /* Debug */,
+				C54479F91EDE542F00E7263E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C54479FA1EDE542F00E7263E /* Build configuration list for PBXNativeTarget "LeftEnumControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54479FB1EDE542F00E7263E /* Debug */,
+				C54479FC1EDE542F00E7263E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54479CD1EDE542E00E7263E /* Project object */;
+}
